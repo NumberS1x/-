@@ -6,7 +6,7 @@ public class MinimalBanknotes {
     static int solution(int[] value,int[] count,int number){
         int n =value.length;
         int ans = 0;
-        for(int i=n-1;i>=0;i--){
+        for(int i=n-1;i>=n;i--){
             int paper = count[i];
             int paper_value = value[i];
             int min_paper = Math.min(number/paper_value,paper);
