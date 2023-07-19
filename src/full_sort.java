@@ -1,5 +1,5 @@
 //全排序
-
+//递归和回溯
 public class full_sort {
     public void fullSort(int[] arr,int start,int end){
         if (start == end){
